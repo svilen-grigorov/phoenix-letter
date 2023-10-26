@@ -32,6 +32,8 @@ optional arguments:
   --fifo                Flag that indicates you want to interact with a FIFO queue.
   --group-id MESSAGE_GROUP_ID
                         Value for the MessageGroupId (used in FIFO queues). Required if '--fifo' argument is passed. Default: NULL.
+  --message-attributes-values KEY=VALUE%VALUE_TYPE
+                        A set of key-value pairs with added type to be set on the processed message.
 ```
 
 * `--src`: Source Queue Name
